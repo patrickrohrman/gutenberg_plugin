@@ -1,0 +1,205 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+ .wp-block-wpress-blocks-cards {
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {        
+        background-color: rgba(0, 0, 0, 0.03);
+        // margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #404041;
+        color: #404041;
+        margin-top: 1em;
+    }
+ }
+
+.wp-block-wpress-blocks-cards.is-style-grey {
+    background-color: #B1AFC5;
+    color: #404041;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #404041;  
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #404041;
+        color: #404041; 
+    }
+}
+
+.wp-block-wpress-blocks-cards.is-style-dark-purple {
+    background-color: #41215E;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #FFFFFF;
+        color: #ffffff;
+    }
+}
+
+.wp-block-wpress-blocks-cards.is-style-hot-pink {
+    background-color: #782670;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #ffffff;  
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #ffffff;
+        color: #ffffff; 
+    }
+}
+
+.wp-block-wpress-blocks-cards.is-style-ecu-purple {
+    background-color: #572C86;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #ffffff;  
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #ffffff;
+        color: #ffffff; 
+    }
+}
+
+.wp-block-wpress-blocks-cards.is-style-gold-grey {
+    background-color: #7b7569;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #ffffff;  
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #ffffff;
+        color: #ffffff; 
+    }
+}
+
+.wp-block-wpress-blocks-cards.is-style-dark-teal {
+    background-color: #004261;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #ffffff;  
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #ffffff;
+        color: #ffffff; 
+    }
+}
+
+.wp-block-wpress-blocks-cards.is-style-dark-grey {
+    background-color: #373738;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #ffffff;  
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #ffffff;
+        color: #ffffff; 
+    }
+}
+
+.wp-block-wpress-blocks-cards.is-style-teal {
+    background-color: #4F7A8C;
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.125);
+    .card-title h2, h3, h4 {
+        color: #ffffff;  
+        background-color: rgba(0, 0, 0, 0.03);
+        margin: 0;           
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }
+    .btn.has_button {       
+        border: 1px solid #ffffff;
+        color: #ffffff; 
+    }
+}
+
+.has_drop_shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-title.has_hidden_title {
+    display: none;
+}
+
+.btn:not(.has_button) {
+    display: none;
+}
+
+.card-body {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 2vh;
+}
+
+.card-title h2, h3, h4 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+    margin: 0;
+}
+
+.btn.has_button {
+    background-color: transparent;        
+    transition: all 0.2s;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.btn.has_button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}

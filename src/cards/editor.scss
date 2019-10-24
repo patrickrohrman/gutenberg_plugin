@@ -1,0 +1,17 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+ 
+.wp-admin {
+    // Write styles here
+    .button-labels {
+        color: #7a7a7a;
+        font-size: .85vw;
+    }
+    h2::before, h3::before, h4::before {
+        display: none;
+    }  
+ }

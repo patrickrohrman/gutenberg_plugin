@@ -1,0 +1,110 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.iconWrapper {
+    font-size: 2em;
+    padding: .5em;    
+}
+
+.svg-inline--fa.fa-fw {
+    width: 1.25em;
+}
+
+.faIcon {
+    height: 1.3em;
+}
+
+.iconWrapper .fa-border {
+    padding: .1em;
+    height: 1.3em;
+}
+
+.faIcon.bg.circle {
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+ .faIcon.bg.square {
+    color: #ffffff;
+    border-radius: 5%;
+}
+
+.faIcon.bg.leaf {
+    color: #ffffff;
+    border-radius: 5% 35% 5%;
+}
+
+.faIcon.ecu-purple {
+    color: #572C86
+}
+
+.faIcon.bg.ecu-purple {
+    background-color: #572C86;
+}
+
+.faIcon.dark-purple {
+    color: #41215E;
+}
+
+.faIcon.bg.dark-purple {
+    background-color: #41215E;
+}
+
+.faIcon.ecu-gold {
+    color: #FEC923;
+}
+
+.faIcon.bg.ecu-gold {
+    background-color: #FEC923;
+}
+
+.faIcon.black {
+    color: #212529;
+}
+
+.faIcon.bg.black {
+    background-color: #212529;
+}
+
+.faIcon.grey {
+    color: #6C6D68;
+}
+
+.faIcon.bg.grey {
+    background-color: #6C6D68;
+}
+
+.faIcon.dark-grey {
+    color: #404041;
+}
+
+.faIcon.bg.dark-grey {
+    background-color: #404041;
+}
+
+.faIcon.burnt-gold {
+    color: #B88B2D;
+}
+
+.faIcon.bg.burnt-gold {
+    background-color: #B88B2D;
+}
+
+.faIcon.dark-teal {
+    color: #59849b;
+}
+
+.faIcon.bg.dark-teal {
+    background-color: #59849b;
+}
+
+.faIcon.manatee {
+    color: #8683A3;
+}
+
+.faIcon.bg.manatee {
+    background-color: #8683A3;
+}

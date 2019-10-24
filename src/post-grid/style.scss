@@ -1,0 +1,47 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+img.post-img, .pg-image img {
+    object-fit: cover;
+}
+img.post-img.sm, .pg-image.sm img {
+    width: 8em;
+    height: 8em;
+}
+
+img.post-img.md, .pg-image.md img {
+   width: 12em;
+   height: 12em;
+}
+
+img.post-img.lg, .pg-image.lg img {
+   width: 18em;
+   height: 18em;
+}
+
+.post-img-div.hiddenImages, .pg-image.hiddenImages {
+    display: none;
+}
+
+.title-align {
+    margin: .5em;    
+}
+
+.title-align.center {
+    text-align: center;
+}
+
+.title-align.left {
+    text-align: left;    
+}
+
+.title-align.right {
+    text-align: right;   
+}
+
+.pg-item {
+    padding: 1em .5em;
+    text-align: center;
+}

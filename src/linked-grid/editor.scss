@@ -1,0 +1,20 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+ .wp-admin {
+    .gridStyleSelect {
+        width: 15%;
+    }
+    .wp-block-wpress-blocks-linked-grid .editor-inner-blocks.block-editor-inner-blocks {
+        width: 100%;
+    }
+
+    .wp-block-wpress-blocks-linked-grid .editor-block-list__layout.block-editor-block-list_-layout {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

@@ -1,0 +1,838 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-wpress-blocks-cards {
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards .card-title h2, .wp-block-wpress-blocks-cards h3, .wp-block-wpress-blocks-cards h4 {
+    background-color: rgba(0, 0, 0, 0.03); }
+  .wp-block-wpress-blocks-cards h2::before, .wp-block-wpress-blocks-cards h3::before, .wp-block-wpress-blocks-cards h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards .btn.has_button {
+    border: 1px solid #404041;
+    color: #404041;
+    margin-top: 1em; }
+
+.wp-block-wpress-blocks-cards.is-style-grey {
+  background-color: #B1AFC5;
+  color: #404041;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-grey .card-title h2, .wp-block-wpress-blocks-cards.is-style-grey h3, .wp-block-wpress-blocks-cards.is-style-grey h4 {
+    color: #404041;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-grey h2::before, .wp-block-wpress-blocks-cards.is-style-grey h3::before, .wp-block-wpress-blocks-cards.is-style-grey h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-grey .btn.has_button {
+    border: 1px solid #404041;
+    color: #404041; }
+
+.wp-block-wpress-blocks-cards.is-style-dark-purple {
+  background-color: #41215E;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-dark-purple .card-title h2, .wp-block-wpress-blocks-cards.is-style-dark-purple h3, .wp-block-wpress-blocks-cards.is-style-dark-purple h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-dark-purple h2::before, .wp-block-wpress-blocks-cards.is-style-dark-purple h3::before, .wp-block-wpress-blocks-cards.is-style-dark-purple h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-dark-purple .btn.has_button {
+    border: 1px solid #FFFFFF;
+    color: #ffffff; }
+
+.wp-block-wpress-blocks-cards.is-style-hot-pink {
+  background-color: #782670;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-hot-pink .card-title h2, .wp-block-wpress-blocks-cards.is-style-hot-pink h3, .wp-block-wpress-blocks-cards.is-style-hot-pink h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-hot-pink h2::before, .wp-block-wpress-blocks-cards.is-style-hot-pink h3::before, .wp-block-wpress-blocks-cards.is-style-hot-pink h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-hot-pink .btn.has_button {
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+
+.wp-block-wpress-blocks-cards.is-style-ecu-purple {
+  background-color: #572C86;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-ecu-purple .card-title h2, .wp-block-wpress-blocks-cards.is-style-ecu-purple h3, .wp-block-wpress-blocks-cards.is-style-ecu-purple h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-ecu-purple h2::before, .wp-block-wpress-blocks-cards.is-style-ecu-purple h3::before, .wp-block-wpress-blocks-cards.is-style-ecu-purple h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-ecu-purple .btn.has_button {
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+
+.wp-block-wpress-blocks-cards.is-style-gold-grey {
+  background-color: #7b7569;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-gold-grey .card-title h2, .wp-block-wpress-blocks-cards.is-style-gold-grey h3, .wp-block-wpress-blocks-cards.is-style-gold-grey h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-gold-grey h2::before, .wp-block-wpress-blocks-cards.is-style-gold-grey h3::before, .wp-block-wpress-blocks-cards.is-style-gold-grey h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-gold-grey .btn.has_button {
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+
+.wp-block-wpress-blocks-cards.is-style-dark-teal {
+  background-color: #004261;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-dark-teal .card-title h2, .wp-block-wpress-blocks-cards.is-style-dark-teal h3, .wp-block-wpress-blocks-cards.is-style-dark-teal h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-dark-teal h2::before, .wp-block-wpress-blocks-cards.is-style-dark-teal h3::before, .wp-block-wpress-blocks-cards.is-style-dark-teal h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-dark-teal .btn.has_button {
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+
+.wp-block-wpress-blocks-cards.is-style-dark-grey {
+  background-color: #373738;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-dark-grey .card-title h2, .wp-block-wpress-blocks-cards.is-style-dark-grey h3, .wp-block-wpress-blocks-cards.is-style-dark-grey h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-dark-grey h2::before, .wp-block-wpress-blocks-cards.is-style-dark-grey h3::before, .wp-block-wpress-blocks-cards.is-style-dark-grey h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-dark-grey .btn.has_button {
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+
+.wp-block-wpress-blocks-cards.is-style-teal {
+  background-color: #4F7A8C;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+  .wp-block-wpress-blocks-cards.is-style-teal .card-title h2, .wp-block-wpress-blocks-cards.is-style-teal h3, .wp-block-wpress-blocks-cards.is-style-teal h4 {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0; }
+  .wp-block-wpress-blocks-cards.is-style-teal h2::before, .wp-block-wpress-blocks-cards.is-style-teal h3::before, .wp-block-wpress-blocks-cards.is-style-teal h4::before {
+    display: none; }
+  .wp-block-wpress-blocks-cards.is-style-teal .btn.has_button {
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+
+.has_drop_shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+
+.card-title.has_hidden_title {
+  display: none; }
+
+.btn:not(.has_button) {
+  display: none; }
+
+.card-body {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 2vh; }
+
+.card-title h2, h3, h4 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 2vh;
+  padding-top: 1vh;
+  margin: 0; }
+
+.btn.has_button {
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  padding: 6px 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 1em; }
+
+.btn.has_button:hover {
+  background-color: rgba(0, 0, 0, 0.15); }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+img.post-img, .pg-image img {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+img.post-img.sm, .pg-image.sm img {
+  width: 8em;
+  height: 8em; }
+
+img.post-img.md, .pg-image.md img {
+  width: 12em;
+  height: 12em; }
+
+img.post-img.lg, .pg-image.lg img {
+  width: 18em;
+  height: 18em; }
+
+.post-img-div.hiddenImages, .pg-image.hiddenImages {
+  display: none; }
+
+.title-align {
+  margin: .5em; }
+
+.title-align.center {
+  text-align: center; }
+
+.title-align.left {
+  text-align: left; }
+
+.title-align.right {
+  text-align: right; }
+
+.pg-item {
+  padding: 1em .5em;
+  text-align: center; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ *
+ * Styles for the child blocks 'dashboard-item2x2' & 'dashboard-item3x3' are also included in this CSS
+ * This prevents having to write the same rules multiple times for nearly identical blocks
+ *
+ */
+.wp-block-wpress-blocks-dashboard-item2x2 {
+  padding: .85em; }
+
+.wp-block-wpress-blocks-dashboard-item3x2 {
+  padding: .85em; }
+
+.child-block {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  border-width: 3px;
+  height: 100%;
+  padding: .25em 1em;
+  background-color: #EEEEEE;
+  color: #41215E; }
+
+.dash-item-title {
+  text-align: center;
+  color: #59849b; }
+
+.dash-item-subtitle {
+  text-align: center;
+  color: #59849b; }
+
+.dash-item-paragraph {
+  padding-top: 1em; }
+
+.dash-item-polaroid {
+  text-align: center; }
+  .dash-item-polaroid img {
+    max-width: 95%;
+    max-height: 95%;
+    height: auto;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.wp-block-image.is-resized.dash-item-polaroid {
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto; }
+
+.child-block .wp-block-image {
+  margin-bottom: .4em; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+*
+ * Styles for the child blocks 'dashboard-item2x2' & 'dashboard-item3x3' are included in this CSS for the parent block
+ * This prevents having to write the same rules multiple times for nearly identical blocks
+ *
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+*
+ * Styles for the child blocks 'dashboard-item2x2' & 'dashboard-item3x3' are included in this CSS for the parent block
+ * This prevents having to write the same rules multiple times for nearly identical blocks
+ *
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.grid-item {
+  position: relative;
+  height: 20em;
+  width: 18em;
+  background-color: #d1d1d1;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin-top: .5em;
+  margin-bottom: .5em; }
+
+.text-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-shadow: 1px 1px 2px black;
+  width: 100%;
+  background: rgba(120, 38, 112, 0.5);
+  padding: 15px;
+  text-align: left;
+  color: #ffffff; }
+
+.text-overlay:hover {
+  background: #782670;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.grid-item:hover .text-overlay {
+  background: #782670;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.linked-grid-a > .item-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%; }
+
+.linked-grid-item .linked-grid-a:hover {
+  border-bottom: none; }
+
+.linked-grid-item .linked-grid-a {
+  border-bottom: none; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.linked-grid-wrapper.row {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.variable-col-item {
+  padding: 1em;
+  width: 100%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.iconWrapper {
+  font-size: 2em;
+  padding: .5em; }
+
+.svg-inline--fa.fa-fw {
+  width: 1.25em; }
+
+.faIcon {
+  height: 1.3em; }
+
+.iconWrapper .fa-border {
+  padding: .1em;
+  height: 1.3em; }
+
+.faIcon.bg.circle {
+  color: #ffffff;
+  border-radius: 50%; }
+
+.faIcon.bg.square {
+  color: #ffffff;
+  border-radius: 5%; }
+
+.faIcon.bg.leaf {
+  color: #ffffff;
+  border-radius: 5% 35% 5%; }
+
+.faIcon.ecu-purple {
+  color: #572C86; }
+
+.faIcon.bg.ecu-purple {
+  background-color: #572C86; }
+
+.faIcon.dark-purple {
+  color: #41215E; }
+
+.faIcon.bg.dark-purple {
+  background-color: #41215E; }
+
+.faIcon.ecu-gold {
+  color: #FEC923; }
+
+.faIcon.bg.ecu-gold {
+  background-color: #FEC923; }
+
+.faIcon.black {
+  color: #212529; }
+
+.faIcon.bg.black {
+  background-color: #212529; }
+
+.faIcon.grey {
+  color: #6C6D68; }
+
+.faIcon.bg.grey {
+  background-color: #6C6D68; }
+
+.faIcon.dark-grey {
+  color: #404041; }
+
+.faIcon.bg.dark-grey {
+  background-color: #404041; }
+
+.faIcon.burnt-gold {
+  color: #B88B2D; }
+
+.faIcon.bg.burnt-gold {
+  background-color: #B88B2D; }
+
+.faIcon.dark-teal {
+  color: #59849b; }
+
+.faIcon.bg.dark-teal {
+  background-color: #59849b; }
+
+.faIcon.manatee {
+  color: #8683A3; }
+
+.faIcon.bg.manatee {
+  background-color: #8683A3; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.components-panel__body.editor-panel-color-settings {
+  display: none; }
+
+.wp-block {
+  max-width: 95%; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.alignfull {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */

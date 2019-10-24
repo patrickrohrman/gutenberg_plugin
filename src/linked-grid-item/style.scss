@@ -1,0 +1,51 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+ .grid-item {
+    position: relative;    
+    height: 20em;
+    width: 18em;      
+    background-color: #d1d1d1;   
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+ }
+
+ .text-overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    width: 100%;
+    background: rgba(120, 38, 112, 0.5);
+    padding: 15px;  
+    text-align: left;  
+    color: #ffffff;
+ }
+
+ .text-overlay:hover {
+   background: rgb(120, 38, 112);
+   transition: all 0.5s;
+ }
+
+ .grid-item:hover .text-overlay {
+   background: rgb(120, 38, 112);
+   transition: all 0.5s;
+ }
+
+ .linked-grid-a > .item-image {
+     object-fit: cover;
+     height: 100%;
+     width: 100%;
+ }
+
+ .linked-grid-item .linked-grid-a:hover {
+   border-bottom: none;
+}
+
+ .linked-grid-item .linked-grid-a {
+    border-bottom: none;
+ }

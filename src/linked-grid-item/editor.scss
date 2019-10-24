@@ -1,0 +1,48 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-admin {         
+   .media-button {
+      background: #05adf0;
+      background-image: -webkit-linear-gradient(top, #05adf0, #2980b9);
+      background-image: -moz-linear-gradient(top, #05adf0, #2980b9);
+      background-image: -ms-linear-gradient(top, #05adf0, #2980b9);
+      background-image: -o-linear-gradient(top, #05adf0, #2980b9);
+      background-image: linear-gradient(to bottom, #05adf0, #2980b9);
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;        
+      color: #ffffff;               
+      text-decoration: none;
+      padding: .3em .5em;
+      margin: .2em;
+   }
+
+   .media-button:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+   }
+
+   .grid-item > .item-image {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+   }
+
+   .wp-block-wpress-blocks-linked-grid .editor-inner-blocks.block-editor-inner-blocks {
+      width: 100%;
+   }
+
+   .wp-block-wpress-blocks-linked-grid .editor-block-list__layout.block-editor-block-list__layout {
+      display: flex;
+      justify-content: space-between;
+   }
+}

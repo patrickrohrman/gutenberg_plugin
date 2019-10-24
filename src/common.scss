@@ -1,0 +1,48 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+// Colors.
+$black: rgb(41, 41, 41);
+$white: #f4f4f4;
+$gray: #dedede;
+$green: #bada55;
+$red: orangered;
+
+// To hide the color options in the right toolbar
+.components-panel__body.editor-panel-color-settings {
+    display: none;
+}
+// To make the editing area lerger in the backend
+// Note: making this 100% causes issues with the selection of parent blocks and child blocks in nested blocks situations.
+.wp-block {
+    max-width: 95%;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.alignfull {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     
+}

@@ -1,2 +1,2 @@
 # gutenberg_plugin
-Wordpress Gutenberg plugin with additional blocks
+Wordpress Gutenberg plugin that adds additional blocks
